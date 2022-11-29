@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+
+<body>
+  <main>
+    <div class="header">
+      <div class="balance-div">
+        <p>My balance</p>
+        <h2 class="current-balance"> $921.48
+        </h2>
+      </div>
+      <img src="./images/logo.svg" alt="cool circles">
+    </div>
+    <section class="visuals-container">
+      <h1 class="visuals-title">Spending - Last 7 days</h1>
+      <div class="chart-container">
+        <div class="baar monday">
+          <div class="bar"></div>
+          <div class="name">
+            mon
+          </div>
+        </div>
+        <div class="baar tuesday">
+          <div class="bar"></div>
+          <div class="name">tue</div>
+        </div>
+        <div class="baar wednesday">
+          <div class="bar"></div>
+          <div class="name">wed</div>
+        </div>
+        <div class="baar thursday">
+          <div class="bar"></div>
+          <div class="name">thu</div>
+        </div>
+        <div class="baar friday">
+          <div class="bar"></div>
+          <div class="name">fri</div>
+        </div>
+        <div class="baar saturday">
+          <div class="bar"></div>
+          <div class="name">sat</div>
+        </div>
+        <div class="baar sundat">
+          <div class="bar"></div>
+          <div class="name">sun</div>
+        </div>
+      </div>
+      <div class="amount-change-container">
+        <div class="amount-spent-container">
+          <p class="faint-brown">Total this month</p>
+          <p class="amount-spent">$478.33</p>
+        </div>
+        <div class="percentage-change-container">
+          <p class="percentage-spent">
+            +2.4%
+          </p>
+          <p class="faint-brown">from last month</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/practitionerofsorts"
+        target="_blank">practitionerofsorts/promise</a>.
+    </p>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
